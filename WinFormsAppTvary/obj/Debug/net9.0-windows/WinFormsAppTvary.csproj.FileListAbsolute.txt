@@ -1,0 +1,16 @@
+C:\Users\danek\OneDrive - Střední škola teleinformatiky, Ostrava, příspěvková organizace\source\repos\WinFormsAppTvary\WinFormsAppTvary\bin\Debug\net9.0-windows\WinFormsAppTvary.exe
+C:\Users\danek\OneDrive - Střední škola teleinformatiky, Ostrava, příspěvková organizace\source\repos\WinFormsAppTvary\WinFormsAppTvary\bin\Debug\net9.0-windows\WinFormsAppTvary.deps.json
+C:\Users\danek\OneDrive - Střední škola teleinformatiky, Ostrava, příspěvková organizace\source\repos\WinFormsAppTvary\WinFormsAppTvary\bin\Debug\net9.0-windows\WinFormsAppTvary.runtimeconfig.json
+C:\Users\danek\OneDrive - Střední škola teleinformatiky, Ostrava, příspěvková organizace\source\repos\WinFormsAppTvary\WinFormsAppTvary\bin\Debug\net9.0-windows\WinFormsAppTvary.dll
+C:\Users\danek\OneDrive - Střední škola teleinformatiky, Ostrava, příspěvková organizace\source\repos\WinFormsAppTvary\WinFormsAppTvary\bin\Debug\net9.0-windows\WinFormsAppTvary.pdb
+C:\Users\danek\OneDrive - Střední škola teleinformatiky, Ostrava, příspěvková organizace\source\repos\WinFormsAppTvary\WinFormsAppTvary\obj\Debug\net9.0-windows\WinFormsAppTvary.FormTvary.resources
+C:\Users\danek\OneDrive - Střední škola teleinformatiky, Ostrava, příspěvková organizace\source\repos\WinFormsAppTvary\WinFormsAppTvary\obj\Debug\net9.0-windows\WinFormsAppTvary.csproj.GenerateResource.cache
+C:\Users\danek\OneDrive - Střední škola teleinformatiky, Ostrava, příspěvková organizace\source\repos\WinFormsAppTvary\WinFormsAppTvary\obj\Debug\net9.0-windows\WinFormsAppTvary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danek\OneDrive - Střední škola teleinformatiky, Ostrava, příspěvková organizace\source\repos\WinFormsAppTvary\WinFormsAppTvary\obj\Debug\net9.0-windows\WinFormsAppTvary.AssemblyInfoInputs.cache
+C:\Users\danek\OneDrive - Střední škola teleinformatiky, Ostrava, příspěvková organizace\source\repos\WinFormsAppTvary\WinFormsAppTvary\obj\Debug\net9.0-windows\WinFormsAppTvary.AssemblyInfo.cs
+C:\Users\danek\OneDrive - Střední škola teleinformatiky, Ostrava, příspěvková organizace\source\repos\WinFormsAppTvary\WinFormsAppTvary\obj\Debug\net9.0-windows\WinFormsAppTvary.csproj.CoreCompileInputs.cache
+C:\Users\danek\OneDrive - Střední škola teleinformatiky, Ostrava, příspěvková organizace\source\repos\WinFormsAppTvary\WinFormsAppTvary\obj\Debug\net9.0-windows\WinFormsAppTvary.dll
+C:\Users\danek\OneDrive - Střední škola teleinformatiky, Ostrava, příspěvková organizace\source\repos\WinFormsAppTvary\WinFormsAppTvary\obj\Debug\net9.0-windows\refint\WinFormsAppTvary.dll
+C:\Users\danek\OneDrive - Střední škola teleinformatiky, Ostrava, příspěvková organizace\source\repos\WinFormsAppTvary\WinFormsAppTvary\obj\Debug\net9.0-windows\WinFormsAppTvary.pdb
+C:\Users\danek\OneDrive - Střední škola teleinformatiky, Ostrava, příspěvková organizace\source\repos\WinFormsAppTvary\WinFormsAppTvary\obj\Debug\net9.0-windows\WinFormsAppTvary.genruntimeconfig.cache
+C:\Users\danek\OneDrive - Střední škola teleinformatiky, Ostrava, příspěvková organizace\source\repos\WinFormsAppTvary\WinFormsAppTvary\obj\Debug\net9.0-windows\ref\WinFormsAppTvary.dll
