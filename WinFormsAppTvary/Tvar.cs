@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WinFormsAppTvary
 {
-    internal abstract class Tvar
+    public abstract class Tvar
     {
         protected int sirka;
         protected int vyska;
@@ -49,5 +49,44 @@ namespace WinFormsAppTvary
         {
             return "Som tvar ktory je farebny jakoze "+ this.farba+" a moja vyska a sirka je "+ this.vyska + " " + this.sirka;
         }
+        public void Zmensit()
+        {
+            if (sirka > 10 && vyska > 10)
+            {
+                sirka /= 2;
+                vyska /= 2;
+            }
+        }
+        public void Zvetsit()
+        {
+            if (sirka < 10000 && vyska < 10000)
+            {
+                sirka *= 2;
+                vyska *= 2;
+            }
+        }
+
+        public void Dolava()
+        {
+            x -= 10;
+        }
+        public void Doprava()
+        {
+            x += 10;
+        }
+        public void Hore()
+        {
+            y -= 10;
+        }
+        public void Dole()
+        {
+            y += 10;
+        }
+        public abstract void Nakreslit();
+        public abstract void NakreslitGUI(Graphics papier);
+        public abstract double VypocitatObvod();
+        public abstract double VypocitatObsah();
+
+
     }
 }
