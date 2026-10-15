@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\danek\\OneDrive - St\u0159edn\u00ED \u0161kola teleinformatiky, Ostrava, p\u0159\u00EDsp\u011Bvkov\u00E1 organizace\\source\\repos\\WinFormsAppTvary\\",
+  "WorkspaceRootPath": "C:\\Users\\ondrej.sindelka\\source\\repos\\WinFormsAppTvary-MATURA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B36BC981-C0F0-4B5F-B0E0-07599E3F6D8C}|WinFormsAppTvary\\WinFormsAppTvary.csproj|c:\\users\\danek\\onedrive - st\u0159edn\u00ED \u0161kola teleinformatiky, ostrava, p\u0159\u00EDsp\u011Bvkov\u00E1 organizace\\source\\repos\\winformsapptvary\\winformsapptvary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B36BC981-C0F0-4B5F-B0E0-07599E3F6D8C}|WinFormsAppTvary\\WinFormsAppTvary.csproj|c:\\users\\ondrej.sindelka\\source\\repos\\winformsapptvary-matura\\winformsapptvary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B36BC981-C0F0-4B5F-B0E0-07599E3F6D8C}|WinFormsAppTvary\\WinFormsAppTvary.csproj|solutionrelative:winformsapptvary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B36BC981-C0F0-4B5F-B0E0-07599E3F6D8C}|WinFormsAppTvary\\WinFormsAppTvary.csproj|c:\\users\\danek\\onedrive - st\u0159edn\u00ED \u0161kola teleinformatiky, ostrava, p\u0159\u00EDsp\u011Bvkov\u00E1 organizace\\source\\repos\\winformsapptvary\\winformsapptvary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B36BC981-C0F0-4B5F-B0E0-07599E3F6D8C}|WinFormsAppTvary\\WinFormsAppTvary.csproj|c:\\users\\ondrej.sindelka\\source\\repos\\winformsapptvary-matura\\winformsapptvary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B36BC981-C0F0-4B5F-B0E0-07599E3F6D8C}|WinFormsAppTvary\\WinFormsAppTvary.csproj|solutionrelative:winformsapptvary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\danek\\OneDrive - St\u0159edn\u00ED \u0161kola teleinformatiky, Ostrava, p\u0159\u00EDsp\u011Bvkov\u00E1 organizace\\source\\repos\\WinFormsAppTvary\\WinFormsAppTvary\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ondrej.sindelka\\source\\repos\\WinFormsAppTvary-MATURA\\WinFormsAppTvary\\Form1.cs",
               "RelativeDocumentMoniker": "WinFormsAppTvary\\Form1.cs",
-              "ToolTip": "C:\\Users\\danek\\OneDrive - St\u0159edn\u00ED \u0161kola teleinformatiky, Ostrava, p\u0159\u00EDsp\u011Bvkov\u00E1 organizace\\source\\repos\\WinFormsAppTvary\\WinFormsAppTvary\\Form1.cs",
+              "ToolTip": "C:\\Users\\ondrej.sindelka\\source\\repos\\WinFormsAppTvary-MATURA\\WinFormsAppTvary\\Form1.cs",
               "RelativeToolTip": "WinFormsAppTvary\\Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -37,9 +37,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\danek\\OneDrive - St\u0159edn\u00ED \u0161kola teleinformatiky, Ostrava, p\u0159\u00EDsp\u011Bvkov\u00E1 organizace\\source\\repos\\WinFormsAppTvary\\WinFormsAppTvary\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ondrej.sindelka\\source\\repos\\WinFormsAppTvary-MATURA\\WinFormsAppTvary\\Form1.cs",
               "RelativeDocumentMoniker": "WinFormsAppTvary\\Form1.cs",
-              "ToolTip": "C:\\Users\\danek\\OneDrive - St\u0159edn\u00ED \u0161kola teleinformatiky, Ostrava, p\u0159\u00EDsp\u011Bvkov\u00E1 organizace\\source\\repos\\WinFormsAppTvary\\WinFormsAppTvary\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\ondrej.sindelka\\source\\repos\\WinFormsAppTvary-MATURA\\WinFormsAppTvary\\Form1.cs [Design]",
               "RelativeToolTip": "WinFormsAppTvary\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T12:07:26.767Z",

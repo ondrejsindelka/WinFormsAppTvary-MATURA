@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ondrej.sindelka\\source\\repos\\WinFormsAppTvary\\WinFormsAppTvary\\WinFormsAppTvary.csproj",
+      "projectUniqueName": "C:\\Users\\ondrej.sindelka\\source\\repos\\WinFormsAppTvary-MATURA\\WinFormsAppTvary\\WinFormsAppTvary.csproj",
       "projectName": "WinFormsAppTvary",
-      "projectPath": "C:\\Users\\ondrej.sindelka\\source\\repos\\WinFormsAppTvary\\WinFormsAppTvary\\WinFormsAppTvary.csproj",
+      "projectPath": "C:\\Users\\ondrej.sindelka\\source\\repos\\WinFormsAppTvary-MATURA\\WinFormsAppTvary\\WinFormsAppTvary.csproj",
       "packagesPath": "C:\\Users\\ondrej.sindelka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ondrej.sindelka\\source\\repos\\WinFormsAppTvary\\WinFormsAppTvary\\obj\\",
+      "outputPath": "C:\\Users\\ondrej.sindelka\\source\\repos\\WinFormsAppTvary-MATURA\\WinFormsAppTvary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ondrej.sindelka\\AppData\\Roaming\\NuGet\\NuGet.Config",

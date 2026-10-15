@@ -24,12 +24,12 @@ namespace WinFormsAppTvary
 
         public override double VypocitatObsah()
         {
-            throw new NotImplementedException();
+            return sirka * vyska;
         }
 
         public override double VypocitatObvod()
         {
-            throw new NotImplementedException();
+            return 2*(sirka + vyska);
         }
     }
 }

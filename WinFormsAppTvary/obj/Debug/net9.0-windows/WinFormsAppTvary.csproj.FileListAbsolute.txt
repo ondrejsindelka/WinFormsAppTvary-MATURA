@@ -14,3 +14,20 @@ C:\Users\danek\OneDrive - Střední škola teleinformatiky, Ostrava, příspěvk
 C:\Users\danek\OneDrive - Střední škola teleinformatiky, Ostrava, příspěvková organizace\source\repos\WinFormsAppTvary\WinFormsAppTvary\obj\Debug\net9.0-windows\WinFormsAppTvary.pdb
 C:\Users\danek\OneDrive - Střední škola teleinformatiky, Ostrava, příspěvková organizace\source\repos\WinFormsAppTvary\WinFormsAppTvary\obj\Debug\net9.0-windows\WinFormsAppTvary.genruntimeconfig.cache
 C:\Users\danek\OneDrive - Střední škola teleinformatiky, Ostrava, příspěvková organizace\source\repos\WinFormsAppTvary\WinFormsAppTvary\obj\Debug\net9.0-windows\ref\WinFormsAppTvary.dll
+C:\Users\ondrej.sindelka\source\repos\WinFormsAppTvary-MATURA\WinFormsAppTvary\bin\Debug\net9.0-windows\WinFormsAppTvary.exe
+C:\Users\ondrej.sindelka\source\repos\WinFormsAppTvary-MATURA\WinFormsAppTvary\bin\Debug\net9.0-windows\WinFormsAppTvary.deps.json
+C:\Users\ondrej.sindelka\source\repos\WinFormsAppTvary-MATURA\WinFormsAppTvary\bin\Debug\net9.0-windows\WinFormsAppTvary.runtimeconfig.json
+C:\Users\ondrej.sindelka\source\repos\WinFormsAppTvary-MATURA\WinFormsAppTvary\bin\Debug\net9.0-windows\WinFormsAppTvary.dll
+C:\Users\ondrej.sindelka\source\repos\WinFormsAppTvary-MATURA\WinFormsAppTvary\bin\Debug\net9.0-windows\WinFormsAppTvary.pdb
+C:\Users\ondrej.sindelka\source\repos\WinFormsAppTvary-MATURA\WinFormsAppTvary\obj\Debug\net9.0-windows\WinFormsAppTvary.FormTvary.resources
+C:\Users\ondrej.sindelka\source\repos\WinFormsAppTvary-MATURA\WinFormsAppTvary\obj\Debug\net9.0-windows\WinFormsAppTvary.csproj.GenerateResource.cache
+C:\Users\ondrej.sindelka\source\repos\WinFormsAppTvary-MATURA\WinFormsAppTvary\obj\Debug\net9.0-windows\WinFormsAppTvary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ondrej.sindelka\source\repos\WinFormsAppTvary-MATURA\WinFormsAppTvary\obj\Debug\net9.0-windows\WinFormsAppTvary.AssemblyInfoInputs.cache
+C:\Users\ondrej.sindelka\source\repos\WinFormsAppTvary-MATURA\WinFormsAppTvary\obj\Debug\net9.0-windows\WinFormsAppTvary.AssemblyInfo.cs
+C:\Users\ondrej.sindelka\source\repos\WinFormsAppTvary-MATURA\WinFormsAppTvary\obj\Debug\net9.0-windows\WinFormsAppTvary.csproj.CoreCompileInputs.cache
+C:\Users\ondrej.sindelka\source\repos\WinFormsAppTvary-MATURA\WinFormsAppTvary\obj\Debug\net9.0-windows\WinFormsAppTvary.sourcelink.json
+C:\Users\ondrej.sindelka\source\repos\WinFormsAppTvary-MATURA\WinFormsAppTvary\obj\Debug\net9.0-windows\WinFormsAppTvary.dll
+C:\Users\ondrej.sindelka\source\repos\WinFormsAppTvary-MATURA\WinFormsAppTvary\obj\Debug\net9.0-windows\refint\WinFormsAppTvary.dll
+C:\Users\ondrej.sindelka\source\repos\WinFormsAppTvary-MATURA\WinFormsAppTvary\obj\Debug\net9.0-windows\WinFormsAppTvary.pdb
+C:\Users\ondrej.sindelka\source\repos\WinFormsAppTvary-MATURA\WinFormsAppTvary\obj\Debug\net9.0-windows\WinFormsAppTvary.genruntimeconfig.cache
+C:\Users\ondrej.sindelka\source\repos\WinFormsAppTvary-MATURA\WinFormsAppTvary\obj\Debug\net9.0-windows\ref\WinFormsAppTvary.dll
