@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WinFormsAppTvary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4cec141d18fbe5da04e2c5b146e396bce31919cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f35090be1b9824c5a333c932908e84f94f9297b")]
 [assembly: System.Reflection.AssemblyProductAttribute("WinFormsAppTvary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WinFormsAppTvary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

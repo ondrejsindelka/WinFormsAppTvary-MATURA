@@ -24,7 +24,7 @@ namespace WinFormsAppTvary
         }
         public override string ToString()
         {
-            return "Ctverec, strana = " + this.sirka + " farba= "+farba;
+            return "Ctverec, strana = " + this.sirka + " farba = "+ farba.ToKnownColor();
         }
     }
 }

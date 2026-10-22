@@ -71,5 +71,81 @@ namespace WinFormsAppTvary
             tvary.Add(k);
             pictureBoxCanvas.Invalidate();
         }
+
+        private void buttonZvetsit_Click(object sender, EventArgs e)
+        {
+            Tvar tvar = VybranyTvar();
+            if (tvar != null)
+            {
+                tvar.Zvetsit();
+                pictureBoxCanvas.Invalidate();
+            }
+        }
+
+        private void buttonZmensit_Click(object sender, EventArgs e)
+        {
+            Tvar tvar = VybranyTvar();
+            if (tvar != null)
+            {
+                tvar.Zmensit();
+                pictureBoxCanvas.Invalidate();
+            }
+        }
+
+        private void buttonSipkaNavrch_Click(object sender, EventArgs e)
+        {
+            Tvar tvar = VybranyTvar();
+            if (tvar != null)
+            {
+                tvar.Hore();
+                pictureBoxCanvas.Invalidate();
+            }
+        }
+        private void buttonSipkaDolu_Click(object sender, EventArgs e)
+        {
+            Tvar tvar = VybranyTvar();
+            if (tvar != null)
+            {
+                tvar.Dole();
+                pictureBoxCanvas.Invalidate();
+            }
+        }
+        private void buttonSipkaDoleva_Click(object sender, EventArgs e)
+        {
+            Tvar tvar = VybranyTvar();
+            if (tvar != null)
+            {
+                tvar.Dolava();
+                pictureBoxCanvas.Invalidate();
+            }
+        }
+
+        private void buttonSipkaDoprava_Click(object sender, EventArgs e)
+        {
+            Tvar tvar = VybranyTvar();
+            if (tvar != null)
+            {
+                tvar.Doprava();
+                pictureBoxCanvas.Invalidate();
+            }
+        }
+
+        private void buttonVypocitejObvod_Click(object sender, EventArgs e)
+        {
+            Tvar tvar = VybranyTvar();
+            if (tvar != null)
+            {
+                textBox1.Text = tvar.VypocitatObvod().ToString();
+            }
+        }
+
+        private void buttonVypocitejObsah_Click(object sender, EventArgs e)
+        {
+            Tvar tvar = VybranyTvar();
+            if (tvar != null)
+            {
+                textBox2.Text = tvar.VypocitatObsah().ToString();
+            }
+        }
     }
 }

@@ -42,7 +42,7 @@ namespace WinFormsAppTvary
         }
         public override string ToString()
         {
-            return "Obdelnik, vyska = " + this.vyska + " sirka = " + this.sirka + " farba = " + farba;
+            return "Obdelnik, vyska = " + this.vyska + " sirka = " + this.sirka + " farba = " + farba.ToKnownColor();
         }
     }
 }

@@ -18,9 +18,9 @@ namespace WinFormsAppTvary
         }
         public override void NakreslitGUI(Graphics papier)
         {
-            var pero = new Pen(farba);
-            papier.DrawEllipse(pero, x, y, sirka, sirka);
-            pero.Dispose();
+            SolidBrush stetec = new SolidBrush(farba);
+            papier.FillEllipse(stetec, x, y, sirka, sirka);
+            stetec.Dispose();
         }
 
         public override double VypocitatObsah()
@@ -34,7 +34,7 @@ namespace WinFormsAppTvary
         }
         public override string ToString()
         {
-            return "Kruh, prumer = " + this.sirka + " farba= " + farba;
+            return "Kruh, prumer = " + this.sirka + " farba = " + farba.ToKnownColor();
         }
     }
 }

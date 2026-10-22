@@ -168,6 +168,7 @@
             buttonZmensit.TabIndex = 2;
             buttonZmensit.Text = "Zmenšit -";
             buttonZmensit.UseVisualStyleBackColor = true;
+            buttonZmensit.Click += buttonZmensit_Click;
             // 
             // buttonZvetsit
             // 
@@ -177,6 +178,7 @@
             buttonZvetsit.TabIndex = 1;
             buttonZvetsit.Text = "Zvětšit +";
             buttonZvetsit.UseVisualStyleBackColor = true;
+            buttonZvetsit.Click += buttonZvetsit_Click;
             // 
             // buttonSipkaDolu
             // 
@@ -186,6 +188,7 @@
             buttonSipkaDolu.TabIndex = 0;
             buttonSipkaDolu.Text = "↓";
             buttonSipkaDolu.UseVisualStyleBackColor = true;
+            buttonSipkaDolu.Click += buttonSipkaDolu_Click;
             // 
             // buttonSipkaDoprava
             // 
@@ -195,6 +198,7 @@
             buttonSipkaDoprava.TabIndex = 0;
             buttonSipkaDoprava.Text = "→";
             buttonSipkaDoprava.UseVisualStyleBackColor = true;
+            buttonSipkaDoprava.Click += buttonSipkaDoprava_Click;
             // 
             // buttonSipkaDoleva
             // 
@@ -204,6 +208,7 @@
             buttonSipkaDoleva.TabIndex = 0;
             buttonSipkaDoleva.Text = "←";
             buttonSipkaDoleva.UseVisualStyleBackColor = true;
+            buttonSipkaDoleva.Click += buttonSipkaDoleva_Click;
             // 
             // buttonSipkaNavrch
             // 
@@ -213,13 +218,15 @@
             buttonSipkaNavrch.TabIndex = 0;
             buttonSipkaNavrch.Text = "↑";
             buttonSipkaNavrch.UseVisualStyleBackColor = true;
+            buttonSipkaNavrch.Click += buttonSipkaNavrch_Click;
             // 
             // listBoxTvary
             // 
+            listBoxTvary.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 238);
             listBoxTvary.FormattingEnabled = true;
             listBoxTvary.Location = new Point(10, 484);
             listBoxTvary.Name = "listBoxTvary";
-            listBoxTvary.Size = new Size(349, 88);
+            listBoxTvary.Size = new Size(349, 82);
             listBoxTvary.TabIndex = 3;
             // 
             // buttonBarva
@@ -256,6 +263,7 @@
             buttonVypocitejObvod.TabIndex = 7;
             buttonVypocitejObvod.Text = "Vypočítej obvod";
             buttonVypocitejObvod.UseVisualStyleBackColor = true;
+            buttonVypocitejObvod.Click += buttonVypocitejObvod_Click;
             // 
             // buttonVypocitejObsah
             // 
@@ -265,6 +273,7 @@
             buttonVypocitejObsah.TabIndex = 8;
             buttonVypocitejObsah.Text = "Vypočítej obsah";
             buttonVypocitejObsah.UseVisualStyleBackColor = true;
+            buttonVypocitejObsah.Click += buttonVypocitejObsah_Click;
             // 
             // buttonObdelnik
             // 

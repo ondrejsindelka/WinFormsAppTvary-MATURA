@@ -11,16 +11,20 @@
       "RelativeMoniker": "D:0:0:{B36BC981-C0F0-4B5F-B0E0-07599E3F6D8C}|WinFormsAppTvary\\WinFormsAppTvary.csproj|solutionrelative:winformsapptvary\\ctvorec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B36BC981-C0F0-4B5F-B0E0-07599E3F6D8C}|WinFormsAppTvary\\WinFormsAppTvary.csproj|c:\\users\\ondrej.sindelka\\source\\repos\\winformsapptvary-matura\\winformsapptvary\\kruh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B36BC981-C0F0-4B5F-B0E0-07599E3F6D8C}|WinFormsAppTvary\\WinFormsAppTvary.csproj|solutionrelative:winformsapptvary\\kruh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B36BC981-C0F0-4B5F-B0E0-07599E3F6D8C}|WinFormsAppTvary\\WinFormsAppTvary.csproj|c:\\users\\ondrej.sindelka\\source\\repos\\winformsapptvary-matura\\winformsapptvary\\tvar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B36BC981-C0F0-4B5F-B0E0-07599E3F6D8C}|WinFormsAppTvary\\WinFormsAppTvary.csproj|solutionrelative:winformsapptvary\\tvar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B36BC981-C0F0-4B5F-B0E0-07599E3F6D8C}|WinFormsAppTvary\\WinFormsAppTvary.csproj|c:\\users\\ondrej.sindelka\\source\\repos\\winformsapptvary-matura\\winformsapptvary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B36BC981-C0F0-4B5F-B0E0-07599E3F6D8C}|WinFormsAppTvary\\WinFormsAppTvary.csproj|solutionrelative:winformsapptvary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B36BC981-C0F0-4B5F-B0E0-07599E3F6D8C}|WinFormsAppTvary\\WinFormsAppTvary.csproj|c:\\users\\ondrej.sindelka\\source\\repos\\winformsapptvary-matura\\winformsapptvary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B36BC981-C0F0-4B5F-B0E0-07599E3F6D8C}|WinFormsAppTvary\\WinFormsAppTvary.csproj|solutionrelative:winformsapptvary\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B36BC981-C0F0-4B5F-B0E0-07599E3F6D8C}|WinFormsAppTvary\\WinFormsAppTvary.csproj|c:\\users\\ondrej.sindelka\\source\\repos\\winformsapptvary-matura\\winformsapptvary\\kruh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B36BC981-C0F0-4B5F-B0E0-07599E3F6D8C}|WinFormsAppTvary\\WinFormsAppTvary.csproj|solutionrelative:winformsapptvary\\kruh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\ondrej.sindelka\\source\\repos\\WinFormsAppTvary-MATURA\\WinFormsAppTvary\\Form1.cs",
               "RelativeDocumentMoniker": "WinFormsAppTvary\\Form1.cs",
               "ToolTip": "C:\\Users\\ondrej.sindelka\\source\\repos\\WinFormsAppTvary-MATURA\\WinFormsAppTvary\\Form1.cs",
               "RelativeToolTip": "WinFormsAppTvary\\Form1.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAUwC0AAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAiwFUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-05T09:09:32.097Z",
               "IsPinned": true,
@@ -48,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ondrej.sindelka\\source\\repos\\WinFormsAppTvary-MATURA\\WinFormsAppTvary\\Form1.cs",
               "RelativeDocumentMoniker": "WinFormsAppTvary\\Form1.cs",
@@ -60,13 +64,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "Tvar.cs",
+              "DocumentMoniker": "C:\\Users\\ondrej.sindelka\\source\\repos\\WinFormsAppTvary-MATURA\\WinFormsAppTvary\\Tvar.cs",
+              "RelativeDocumentMoniker": "WinFormsAppTvary\\Tvar.cs",
+              "ToolTip": "C:\\Users\\ondrej.sindelka\\source\\repos\\WinFormsAppTvary-MATURA\\WinFormsAppTvary\\Tvar.cs",
+              "RelativeToolTip": "WinFormsAppTvary\\Tvar.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T09:48:25.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Kruh.cs",
               "DocumentMoniker": "C:\\Users\\ondrej.sindelka\\source\\repos\\WinFormsAppTvary-MATURA\\WinFormsAppTvary\\Kruh.cs",
               "RelativeDocumentMoniker": "WinFormsAppTvary\\Kruh.cs",
               "ToolTip": "C:\\Users\\ondrej.sindelka\\source\\repos\\WinFormsAppTvary-MATURA\\WinFormsAppTvary\\Kruh.cs",
               "RelativeToolTip": "WinFormsAppTvary\\Kruh.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwCQAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-22T09:17:58.526Z",
               "EditorCaption": ""
@@ -79,7 +96,7 @@
               "RelativeDocumentMoniker": "WinFormsAppTvary\\Obdlznik.cs",
               "ToolTip": "C:\\Users\\ondrej.sindelka\\source\\repos\\WinFormsAppTvary-MATURA\\WinFormsAppTvary\\Obdlznik.cs",
               "RelativeToolTip": "WinFormsAppTvary\\Obdlznik.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAkwBoAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvywAAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-22T09:22:39.602Z",
               "EditorCaption": ""
@@ -92,7 +109,7 @@
               "RelativeDocumentMoniker": "WinFormsAppTvary\\Ctvorec.cs",
               "ToolTip": "C:\\Users\\ondrej.sindelka\\source\\repos\\WinFormsAppTvary-MATURA\\WinFormsAppTvary\\Ctvorec.cs",
               "RelativeToolTip": "WinFormsAppTvary\\Ctvorec.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-22T09:20:34.233Z",
               "EditorCaption": ""
