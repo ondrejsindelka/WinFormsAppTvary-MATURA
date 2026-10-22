@@ -88,6 +88,11 @@ namespace WinFormsAppTvary
             if (tvar != null)
             {
                 tvar.Zmensit();
+                int index = listBoxTvary.SelectedIndex;
+                listBoxTvary.DataSource = null;
+                listBoxTvary.DataSource = tvary;
+                listBoxTvary.SelectedIndex= index;
+
                 pictureBoxCanvas.Invalidate();
             }
         }
