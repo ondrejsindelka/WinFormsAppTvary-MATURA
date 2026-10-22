@@ -44,7 +44,7 @@
             buttonSipkaDoprava = new Button();
             buttonSipkaDoleva = new Button();
             buttonSipkaNavrch = new Button();
-            listBox1 = new ListBox();
+            listBoxTvary = new ListBox();
             buttonBarva = new Button();
             textBox1 = new TextBox();
             textBox2 = new TextBox();
@@ -54,13 +54,13 @@
             buttonCtverec = new Button();
             buttonKruh = new Button();
             panelBarva = new Panel();
-            pictureBox1 = new PictureBox();
+            pictureBoxCanvas = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)numericUpDownPoziceX).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDownPoziceY).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDownSirka).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDownVyska).BeginInit();
             groupBoxOvladani.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxCanvas).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -107,39 +107,43 @@
             // 
             numericUpDownPoziceX.Location = new Point(11, 27);
             numericUpDownPoziceX.Margin = new Padding(5, 6, 5, 6);
+            numericUpDownPoziceX.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
             numericUpDownPoziceX.Name = "numericUpDownPoziceX";
             numericUpDownPoziceX.Size = new Size(139, 34);
             numericUpDownPoziceX.TabIndex = 1;
+            numericUpDownPoziceX.Value = new decimal(new int[] { 10, 0, 0, 0 });
             // 
             // numericUpDownPoziceY
             // 
             numericUpDownPoziceY.Location = new Point(11, 104);
             numericUpDownPoziceY.Margin = new Padding(5, 6, 5, 6);
+            numericUpDownPoziceY.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
             numericUpDownPoziceY.Name = "numericUpDownPoziceY";
             numericUpDownPoziceY.Size = new Size(139, 34);
             numericUpDownPoziceY.TabIndex = 1;
+            numericUpDownPoziceY.Value = new decimal(new int[] { 10, 0, 0, 0 });
             // 
             // numericUpDownSirka
             // 
             numericUpDownSirka.Location = new Point(208, 27);
             numericUpDownSirka.Margin = new Padding(5, 6, 5, 6);
             numericUpDownSirka.Maximum = new decimal(new int[] { 250, 0, 0, 0 });
-            numericUpDownSirka.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            numericUpDownSirka.Minimum = new decimal(new int[] { 10, 0, 0, 0 });
             numericUpDownSirka.Name = "numericUpDownSirka";
             numericUpDownSirka.Size = new Size(139, 34);
             numericUpDownSirka.TabIndex = 1;
-            numericUpDownSirka.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            numericUpDownSirka.Value = new decimal(new int[] { 10, 0, 0, 0 });
             // 
             // numericUpDownVyska
             // 
             numericUpDownVyska.Location = new Point(208, 104);
             numericUpDownVyska.Margin = new Padding(5, 6, 5, 6);
             numericUpDownVyska.Maximum = new decimal(new int[] { 250, 0, 0, 0 });
-            numericUpDownVyska.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            numericUpDownVyska.Minimum = new decimal(new int[] { 10, 0, 0, 0 });
             numericUpDownVyska.Name = "numericUpDownVyska";
             numericUpDownVyska.Size = new Size(139, 34);
             numericUpDownVyska.TabIndex = 1;
-            numericUpDownVyska.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            numericUpDownVyska.Value = new decimal(new int[] { 10, 0, 0, 0 });
             // 
             // groupBoxOvladani
             // 
@@ -210,13 +214,13 @@
             buttonSipkaNavrch.Text = "↑";
             buttonSipkaNavrch.UseVisualStyleBackColor = true;
             // 
-            // listBox1
+            // listBoxTvary
             // 
-            listBox1.FormattingEnabled = true;
-            listBox1.Location = new Point(10, 484);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(349, 88);
-            listBox1.TabIndex = 3;
+            listBoxTvary.FormattingEnabled = true;
+            listBoxTvary.Location = new Point(10, 484);
+            listBoxTvary.Name = "listBoxTvary";
+            listBoxTvary.Size = new Size(349, 88);
+            listBoxTvary.TabIndex = 3;
             // 
             // buttonBarva
             // 
@@ -272,6 +276,7 @@
             buttonObdelnik.TabIndex = 9;
             buttonObdelnik.Text = "Obdélník";
             buttonObdelnik.UseVisualStyleBackColor = false;
+            buttonObdelnik.Click += buttonObdelnik_Click;
             // 
             // buttonCtverec
             // 
@@ -283,6 +288,7 @@
             buttonCtverec.TabIndex = 9;
             buttonCtverec.Text = "Čtverec";
             buttonCtverec.UseVisualStyleBackColor = false;
+            buttonCtverec.Click += buttonCtverec_Click;
             // 
             // buttonKruh
             // 
@@ -294,6 +300,7 @@
             buttonKruh.TabIndex = 9;
             buttonKruh.Text = "Kruh";
             buttonKruh.UseVisualStyleBackColor = false;
+            buttonKruh.Click += buttonKruh_Click;
             // 
             // panelBarva
             // 
@@ -303,21 +310,22 @@
             panelBarva.Size = new Size(42, 42);
             panelBarva.TabIndex = 10;
             // 
-            // pictureBox1
+            // pictureBoxCanvas
             // 
-            pictureBox1.BackColor = SystemColors.Window;
-            pictureBox1.Location = new Point(371, 11);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(738, 657);
-            pictureBox1.TabIndex = 11;
-            pictureBox1.TabStop = false;
+            pictureBoxCanvas.BackColor = SystemColors.Window;
+            pictureBoxCanvas.Location = new Point(371, 11);
+            pictureBoxCanvas.Name = "pictureBoxCanvas";
+            pictureBoxCanvas.Size = new Size(738, 657);
+            pictureBoxCanvas.TabIndex = 11;
+            pictureBoxCanvas.TabStop = false;
+            pictureBoxCanvas.Paint += pictureBoxCanvas_Paint;
             // 
             // FormTvary
             // 
             AutoScaleDimensions = new SizeF(11F, 28F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1121, 680);
-            Controls.Add(pictureBox1);
+            Controls.Add(pictureBoxCanvas);
             Controls.Add(panelBarva);
             Controls.Add(buttonKruh);
             Controls.Add(buttonCtverec);
@@ -327,7 +335,7 @@
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(buttonBarva);
-            Controls.Add(listBox1);
+            Controls.Add(listBoxTvary);
             Controls.Add(groupBoxOvladani);
             Controls.Add(numericUpDownVyska);
             Controls.Add(numericUpDownPoziceY);
@@ -346,7 +354,7 @@
             ((System.ComponentModel.ISupportInitialize)numericUpDownSirka).EndInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDownVyska).EndInit();
             groupBoxOvladani.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxCanvas).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -363,7 +371,7 @@
         private NumericUpDown numericUpDownSirka;
         private NumericUpDown numericUpDownVyska;
         private GroupBox groupBoxOvladani;
-        private ListBox listBox1;
+        private ListBox listBoxTvary;
         private Button buttonBarva;
         private TextBox textBox1;
         private TextBox textBox2;
@@ -379,6 +387,6 @@
         private Button buttonCtverec;
         private Button buttonKruh;
         private Panel panelBarva;
-        private PictureBox pictureBox1;
+        private PictureBox pictureBoxCanvas;
     }
 }

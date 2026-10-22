@@ -14,12 +14,21 @@ namespace WinFormsAppTvary
 
         public override void Nakreslit()
         {
-            throw new NotImplementedException();
+            for (int i = 0; i < vyska; i++)
+            {
+                for (int j = 0; j < sirka; j++)
+                {
+                    Console.Write("* ");
+                }
+                Console.WriteLine();
+            }
         }
 
         public override void NakreslitGUI(Graphics papier)
         {
-            throw new NotImplementedException();
+            SolidBrush stetec = new SolidBrush(farba);
+            papier.FillRectangle(stetec, x, y, sirka, vyska);
+            stetec.Dispose();
         }
 
         public override double VypocitatObsah()
@@ -30,6 +39,10 @@ namespace WinFormsAppTvary
         public override double VypocitatObvod()
         {
             return 2*(sirka + vyska);
+        }
+        public override string ToString()
+        {
+            return "Obdelnik, vyska = " + this.vyska + " sirka = " + this.sirka + " farba = " + farba;
         }
     }
 }
